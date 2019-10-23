@@ -36,11 +36,11 @@ export default class Popup extends Component {
 
 	render() {
 		return (
-			<div class="popup">
-				<div class="popup-text">
+			<div className="popup">
+				<div className="popup-text">
 					{this.props.defaultText}
 				</div>
-				<div class={"popup-text-" + this.props.position}>
+				<div className={"popup-text-" + this.props.position}>
 					{this.props.popupsText}
 				</div>
 			</div>
